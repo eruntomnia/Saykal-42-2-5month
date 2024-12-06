@@ -1,0 +1,10 @@
+
+export const types = {
+    CHANGE_TITLE: 'CHANGE_TITLE',
+    WITH_PARAMS: 'WITH_PARAMS',
+    FROM_INPUT: 'FROM_INPUT',
+    ADD_TASK: 'ADD_TASK',
+    TOGGLE_TASK: 'TOGGLE_TASK',
+    DELETE_TASK: 'DELETE_TASK'
+}
+

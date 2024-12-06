@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  background-color: #f3e3e2;
+}
+
+.app-container{
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.add-task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+
+}
+
+.task-card {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.task-card.completed {
+  background-color: #d4edda;
+  text-decoration: line-through;
+}
+
+.task-actions button {
+  margin-right: 5px;
+}
